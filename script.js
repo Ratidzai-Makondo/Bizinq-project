@@ -37,7 +37,7 @@ function ValidateForm(){
     }
 
     
-    //to clear error or sucess message
+    
     function clearMessages(){ 
         for(let i = 0; i < errorNodes.length; i++)  {
             errorNodes[i].innerText = "";
